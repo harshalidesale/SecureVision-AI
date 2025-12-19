@@ -1,63 +1,63 @@
-YOLOv8 Object Detection
-Project Overview
+🚀 YOLOv8 Object Detection
+📌 Project Overview
 
-This project uses YOLOv8 for real-time object detection.
-The model identifies objects in images and videos and draws bounding boxes with class labels and confidence scores.
+This project implements YOLOv8 for real-time object detection.
+It detects objects in images and videos and displays bounding boxes with class labels and confidence scores.
 
-YOLOv8 is fast, accurate, and suitable for surveillance and security-related applications.
+YOLOv8 is fast, accurate, and suitable for security and surveillance applications.
 
-Technologies Used
+🛠️ Technologies Used
 
 Python
 
 YOLOv8
 
-OpenCV
-
 PyTorch
 
-Features
+OpenCV
 
-Real-time object detection
+✨ Features
 
-Image and video processing
+✅ Real-time object detection
 
-Pretrained YOLOv8 models
+✅ Image and video input support
 
-Easy integration with Python applications
+✅ Pretrained YOLOv8 models
 
-Installation
+✅ Easy Python integration
 
-Install required packages using pip:
+📦 Installation
+
+Install the required library using pip:
 
 pip install ultralytics
 
-Usage
-Run Detection Using Python
+▶️ Usage
+🔹 Run Detection Using Python
 from ultralytics import YOLO
 
 model = YOLO("yolo11n.pt")
 results = model("image.jpg")
 results.show()
 
-Use Cases
+🎯 Use Cases
 
-Surveillance and security monitoring
+🔐 Surveillance systems
 
-Threat detection
+🚨 Threat detection
 
-Smart city applications
+🏙️ Smart city monitoring
 
-Industrial monitoring
+🏭 Industrial safety
 
-Future Enhancements
+🔮 Future Enhancements
 
-Custom model training
+Custom dataset training
 
-Integration with web dashboards
+Web dashboard integration
 
-Cloud deployment
+Cloud deployment (AWS)
 
-Conclusion
+✅ Conclusion
 
-This project demonstrates how YOLOv8 can be used for fast and reliable object detection and can be extended for real-world applications.
+This project shows how YOLOv8 can be used for fast and reliable object detection and can be extended for real-world AI-based security systems.
